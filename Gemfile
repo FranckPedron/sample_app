@@ -34,6 +34,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development do
   gem 'rspec-rails'
+  gem 'annotate_models'
+  gem'protected_attributes'
 end
 
 group :test do
