@@ -1,5 +1,6 @@
 require 'spec_helper'
 
+
 describe "LayoutLinks" do
 
   it "devrait trouver une page Accueil à '/'" do

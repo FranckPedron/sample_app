@@ -1,5 +1,6 @@
 require 'spec_helper'
 
+
 describe User do
 
   before(:each) do
@@ -56,5 +57,5 @@ describe User do
     user_with_duplicate_email.should_not be_valid
   end
 
-  
+
 end
