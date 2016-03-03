@@ -15,10 +15,16 @@ body a.noicon {
 }
 
 /* Make sure the icons are not cut */
+<<<<<<< HEAD
+a[href^="http:"], a[href^="mailto:"], a[href^="http:"]:visited,
+a[href$=".pdf"], a[href$=".doc"], a[href$=".xls"], a[href$=".rss"],
+a[href$=".rdf"], a[href^="aim:"] {
+=======
 a[href^="http:"], a[href^="https:"],
 a[href^="http:"]:visited, a[href^="https:"]:visited,
 a[href^="mailto:"], a[href$=".pdf"], a[href$=".doc"], a[href$=".xls"],
 a[href$=".rss"], a[href$=".rdf"], a[href^="aim:"] {
+>>>>>>> 6b7303a29f7833570240228f4a7a19e16356c8b3
   padding:2px 22px 2px 0;
   margin:-2px 0;
   background-repeat: no-repeat;
@@ -27,7 +33,10 @@ a[href$=".rss"], a[href$=".rdf"], a[href^="aim:"] {
 
 /* External links */
 a[href^="http:"]          { background-image: url(icons/external.png); }
+<<<<<<< HEAD
+=======
 a[href^="https:"]         { background-image: url(icons/lock.png); }
+>>>>>>> 6b7303a29f7833570240228f4a7a19e16356c8b3
 a[href^="mailto:"]        { background-image: url(icons/email.png); }
 a[href^="http:"]:visited  { background-image: url(icons/visited.png); }
 

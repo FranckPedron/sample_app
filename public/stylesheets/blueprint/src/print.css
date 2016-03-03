@@ -72,6 +72,8 @@ a:link, a:visited {
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
+=======
 /*
   This has been the source of many questions in the past. This
   snippet of CSS appends the URL of each link within the text.
@@ -79,6 +81,7 @@ a:link, a:visited {
   the URLs they go to. If you want to remove this functionality,
   comment out this snippet and make sure to re-compress your files.
  */
+>>>>>>> 6b7303a29f7833570240228f4a7a19e16356c8b3
 a:link:after, a:visited:after {
   content: " (" attr(href) ")";
   font-size: 90%;

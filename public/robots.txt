@@ -1,5 +1,12 @@
+<<<<<<< HEAD
+# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
+#
+# To ban all spiders from the entire site uncomment the next two lines:
+# User-Agent: *
+=======
 # See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
 #
 # To ban all spiders from the entire site uncomment the next two lines:
 # User-agent: *
+>>>>>>> 6b7303a29f7833570240228f4a7a19e16356c8b3
 # Disallow: /
